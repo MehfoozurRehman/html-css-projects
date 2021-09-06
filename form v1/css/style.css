@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: nunito,sans-serif;
+    background-color: #007a1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-area{
+    width: 22%;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0,.2);
+    padding: 1.5em 2em;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 28px;
+    color: #919191;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.para{
+    font-size: 18px;
+    font-weight: bold;
+    color: #919191;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 1em .5em;
+    margin-bottom: 25px;
+    border: 1px solid rgba(145, 145, 145, .7);
+    outline: none;
+    font-size: 14px;
+}
+textarea{
+    padding: 1em .5em;
+    margin-bottom: 30px;
+    border: 1px solid rgba(145, 145, 145, .7);
+    outline: none;
+    font-size: 16px;
+}
+.cta{
+    font-size: 22px;
+    color: white;
+    background-color: #007a1b;
+    border: none;
+    padding: .7em .5em;
+    outline: none;
+    cursor: pointer;
+}
+.cta:hover{
+    background-color: #0ba32c;
+}

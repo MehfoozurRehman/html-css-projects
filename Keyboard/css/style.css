@@ -1,0 +1,206 @@
+input{
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .7);
+    color: black;
+    font-size: 15px;
+    transform: scale(1);
+}
+textarea{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+input:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+    transform: scale(1.02);
+}
+input[class=fnkey]{
+            width:50px;
+            height:35px;
+            background-color:blue;
+}
+input[class=escape]{
+            width: 50px;
+            height: 35px;
+            background-color:crimson;
+}
+input[class=home]{
+            width: 50px;
+            height: 35px;
+            background-color:yellow;
+}
+        input[class=end]{
+            width: 50px;
+            height: 35px;
+            background-color:yellow;
+        }
+        input[class=insert]{
+            width: 50px;
+            height: 35px;
+            background-color:yellow;
+        }
+        input[class=delete]{
+            width: 55px;
+            height: 35px;
+            background-color:yellow;
+        }
+        input[class=alphakey]{
+            width: 60px;
+            height: 50px;
+            background-color:rgb(0, 241, 12);
+        }
+        input[class=numkey]{
+            width: 60px;
+            height: 50px;
+            background-color:red;
+        }
+        input[class=backspace]{
+            width: 117px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=dash]{
+            width: 50px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=equal]{
+            width: 50px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=congrent]{
+            width: 50px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=tabkey]{
+            width: 72px;
+            height: 50px;
+            background-color:yellowgreen;
+        }
+        input[class=forward_slash]{
+            width: 75px;
+            height: 50px;
+            background-color:yellowgreen;
+        }
+        input[class=braces_open]{
+            width: 60px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=braces_close]{
+            width: 60px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=capslock]{
+            width: 90px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=enter]{
+            width: 120px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=ratio]{
+            width: 60px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=quate]{
+            width: 60px;
+            height: 50px;
+            background-color:cyan;
+        }
+        input[class=shift_left]{
+            width: 120px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=shift_right]{
+            width: 153px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=comma]{
+            width: 60px;
+            height: 50px;
+            background-color:rgb(0, 241, 12);
+        }input[class=dot]{
+            width: 60px;
+            height: 50px;
+            background-color:rgb(0, 241, 12);
+        }input[class=back_slash]{
+            width: 60px;
+            height: 50px;
+            background-color:rgb(0, 241, 12);
+        }
+        input[class=control_left]{
+            width: 80px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=control_right]{
+            width: 60px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=function]{
+            width: 60px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=windowkey]{
+            width: 60px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=alter_left]{
+            width: 60px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=alter_right]{
+            width: 60px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=page_up]{
+            width: 70px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=page_down]{
+            width: 80px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=arrow_up]{
+            width: 50px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=space]{
+            width: 300px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=arrow_down]{
+            width: 50px;
+            height: 50px;
+            background-color:yellow;
+        }
+        input[class=arrow_left]{
+            width: 80px;
+            height: 50px;
+            background-color:yellow;
+            margin-right:3px; 
+        }
+        input[class=arrow_right]{
+            width: 70px;
+            height: 50px;
+            background-color:yellow;
+        }

@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.main-content{
+    width: 1440px;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-section{
+    height: 70%;
+}
+.heading-contact{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: .5em;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.input-fields input{
+    padding: .5em;
+    border: 1px solid var(--text-color);
+    box-shadow: 0px 3px 10px var(--shadow);
+    background-color: var(--bg-color);
+    border-radius: 3px;
+}
+.input-fields textarea{
+    padding: .5em;
+    border: 1px solid var(--text-color);
+    box-shadow: 0px 3px 10px var(--shadow);
+    background-color: var(--bg-color);
+    border-radius: 3px;
+}
+.input-fields label{
+    padding: .3em 0em;
+    color: var(--text-color);
+    font-size: 18px;
+}
+.other-section{
+    height: 70%;
+    width: 30%;
+}
+.border{
+    margin-top: 4em;
+    width: 5px;
+    height: 60vh;
+    border-radius: 50px;
+    background-color: var(--text-color);
+}

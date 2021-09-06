@@ -1,0 +1,117 @@
+:root{
+    --accent-color: #641bff;
+    --background-color: #eef1f9;
+    --card-color: #fff;
+    --devider-color: rgba(255, 255, 255, .5);
+    --devider-orgnal-color: rgba(0, 0, 0, .2);
+}
+body{
+    display: flex;
+    margin: 0;
+    background: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    place-content: center;
+    font-family: sans-serif;
+}
+.price-comparison{
+    display: flex;
+}
+.plan-section{
+    width: 250px;
+    padding: 3.5rem 4rem;
+    background: var(--card-color);
+    border-radius: 10px;
+    box-shadow: 3px 6px 30px rgba(0, 0, 0, .2);
+}
+.plan-section:first-child{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.plan-section:last-child{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.popular{
+    background: var(--accent-color);
+    color: white;
+    margin-top: -3rem;
+    padding-top: 6.5rem;
+    margin-bottom: -3rem;
+    padding-bottom: 6.5rem;   
+}
+.price-section{
+    display: flex;
+    place-content: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.dollar-section{
+    font-size: 2rem;
+    margin-top: 2px;
+}
+.month-section{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.plan-name{
+    display: flex;
+    place-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.divider{
+    height: 1px;
+    width: 100%;
+    background: var(--devider-orgnal-color);
+    margin-bottom: 2rem;
+}
+.popular .divider{
+    background: var(--devider-color);
+}
+.img{
+    position: absolute;
+    top: 7.5px;
+    left: 0px;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    position: relative;
+    font-size: .95rem;
+    padding: .5rem;
+}
+.inactive{
+    color: gray;
+    text-decoration: line-through;
+}
+.cta-price-plan{
+    margin-top: 3.5rem;
+    width: 100%;
+    padding: 1rem  3.5rem;
+    background: var(--accent-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .2);
+    transition: 100ms;
+    transform: scale(1);
+}
+.popular .cta-price-plan{
+    background: white;
+    color: var(--accent-color);
+}
+.cta-price-plan:hover, .cta-price-plan:focus{
+    transform: scale(1.02);
+    cursor: pointer;
+}

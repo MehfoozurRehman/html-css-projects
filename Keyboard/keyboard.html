@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+        <form name="form">
+           <div class="main">
+            <table align=center>
+                <tr><td><textarea type="text" name="text" placeholder="Type the text here." cols="128" rows="10"></textarea></td></tr>
+                <tr><td>
+                    <input class="escape" name="btn0" type="reset" value="Esc">
+                    <input class="fnkey" name="btn1" type="button" value="F1">
+                    <input class="fnkey" name="btn2" type="button" value="F2">
+                    <input class="fnkey" name="btn3" type="button" value="F3">
+                    <input class="fnkey" name="btn4" type="button" value="F4">
+                    <input class="fnkey" name="btn5" type="button" value="F5">
+                    <input class="fnkey" name="btn6" type="button" value="F6">
+                    <input class="fnkey" name="btn7" type="button" value="F7">
+                    <input class="fnkey" name="btn8" type="button" value="F8">
+                    <input class="fnkey" name="btn9" type="button" value="F9">
+                    <input class="fnkey" name="btn10" type="button" value="F10">
+                    <input class="fnkey" name="btn11" type="button" value="F11">
+                    <input class="fnkey" name="btn12" type="button" value="F12">
+                    <input class="home" name="btn13" type="button" value="Home">
+                    <input class="end" name="btn14" type="button" value="End">
+                    <input class="insert" name="btn15" type="button" value="Insert">
+                    <input class="delete" name="btn16" type="button" value="Delete">
+                </td></tr>
+                <tr><td>
+                    <input class="congrent" name="btn17" type="button" value="~">
+                    <input class="numkey" name="btn18" type="button" value="1" onclick="insert('1')">
+                    <input class="numkey" name="btn19" type="button" value="2" onclick="insert('2')">
+                    <input class="numkey" name="btn20" type="button" value="3" onclick="insert('3')">
+                    <input class="numkey" name="btn21" type="button" value="4" onclick="insert('4')">
+                    <input class="numkey" name="btn22" type="button" value="5" onclick="insert('5')">
+                    <input class="numkey" name="btn23" type="button" value="6" onclick="insert('6')">
+                    <input class="numkey" name="btn24" type="button" value="7" onclick="insert('7')">
+                    <input class="numkey" name="btn35" type="button" value="8" onclick="insert('8')">
+                    <input class="numkey" name="btn26" type="button" value="9" onclick="insert('9')">
+                    <input class="numkey" name="btn28" type="button" value="0" onclick="insert('0')">
+                    <input class="dash" name="btn29" type="button" value="-" onclick="insert('-')">
+                    <input class="equal" name="btn30" type="button" value="=" onclick="insert('=')">
+                    <input class="backspace" name="btn31" type="button" value="Backspace">
+                </td></tr>
+                <tr><td>
+                    <input class="tabkey" name="btn32" type="button" value="Tab" onclick="insert('     ')">
+                    <input class="alphakey" name="btn33" type="button" value="Q" onclick="insert('Q')">
+                    <input class="alphakey" name="btn34" type="button" value="W"  onclick="insert('W')">
+                    <input class="alphakey" name="btn35" type="button" value="E" onclick="insert('E')">
+                    <input class="alphakey" name="btn36" type="button" value="R" onclick="insert('R')">
+                    <input class="alphakey" name="btn37" type="button" value="T" onclick="insert('T')">
+                    <input class="alphakey" name="btn38" type="button" value="Y" onclick="insert('Y')">
+                    <input class="alphakey" name="btn39" type="button" value="U" onclick="insert('U')">
+                    <input class="alphakey" name="btn40" type="button" value="I" onclick="insert('I')">
+                    <input class="alphakey" name="btn41" type="button" value="O" onclick="insert('O')">
+                    <input class="alphakey" name="btn42" type="button" value="P" onclick="insert('P')">
+                    <input class="braces_open" name="btn44" type="button" value="[" onclick="insert('[')">
+                    <input class="braces_close" name="btn45" type="button" value="]" onclick="insert(']')">
+                    <input class="forward_slash" name="btn46" type="button" value="\" onclick="insert('|')">
+                </td></tr>
+                <tr><td>
+                    <input class="capslock" name="btn47" type="button" value="Caps Lock">
+                    <input class="alphakey" name="btn48" type="button" value="A" onclick="insert('A')">
+                    <input class="alphakey" name="btn49" type="button" value="S" onclick="insert('S')">
+                    <input class="alphakey" name="btn50" type="button" value="D" onclick="insert('D')">
+                    <input class="alphakey" name="btn51" type="button" value="F" onclick="insert('F')">
+                    <input class="alphakey" name="btn52" type="button" value="G" onclick="insert('G')">
+                    <input class="alphakey" name="btn53" type="button" value="H" onclick="insert('H')">
+                    <input class="alphakey" name="btn54" type="button" value="J" onclick="insert('J')">
+                    <input class="alphakey" name="btn55" type="button" value="K" onclick="insert('K')">
+                    <input class="alphakey" name="btn56" type="button" value="L" onclick="insert('L')">
+                    <input class="ratio" name="btn61" type="button" value=":" onclick="insert(':')">
+                    <input class="quate" name="btn62" type="button" value='"'>
+                    <input class="enter" name="btn63" type="button" value="Enter">
+                </td></tr>
+                <tr><td>
+                    <input class="shift_left" name="btn64" type="button" value="Shift">
+                    <input class="alphakey" name="btn65" type="button" value="Z" onclick="insert('Z')">
+                    <input class="alphakey" name="btn66" type="button" value="X" onclick="insert('X')">
+                    <input class="alphakey" name="btn67" type="button" value="C" onclick="insert('C')">
+                    <input class="alphakey" name="btn68" type="button" value="V" onclick="insert('V')">
+                    <input class="alphakey" name="btn69" type="button" value="B" onclick="insert('B')">
+                    <input class="alphakey" name="btn70" type="button" value="N" onclick="insert('N')">
+                    <input class="alphakey" name="btn71" type="button" value="M" onclick="insert('M')">
+                    <input class="comma" name="btn73" type="button" value="," onclick="insert(',')">
+                    <input class="dot" name="btn74" type="button" value="." onclick="insert('.')">
+                    <input class="back_slash" name="btn75" type="button" value="/" onclick="insert('/')">
+                    <input class="shift_right" name="btn76" type="button" value="Shift" onclick="lowercase(form.btn56.value)">
+                </td></tr>
+                <tr><td>
+                    <input class="control_left" name="btn77" type="button" value="Ctrl">
+                    <input class="function" name="btn78" type="button" value="Fn">
+                    <input class="windowkey" name="btn79" type="button" value="&#xe63b;">
+                    <input class="alter_left" name="btn80" type="button" value="Alt">
+                    <input class="space" name="btn81" type="button" value="Space Bar" onclick="insert(' ')">
+                    <input class="alter_right" name="btn82" type="button" value="Alt">
+                    <input class="control_right" name="btn83" type="button" value="Ctrl">
+                    <input class="page_up" name="btn84" type="button" value="Page Up">
+                    <input class="arrow_up" name="btn85" type="button" value="&uarr;">
+                    <input class="page_down" name="btn86" type="button" value="Page Down">
+                </td></tr>
+                <tr><td align="right" >
+                    <input class="arrow_right" name="btn87" type="button" value="&larr;">
+                    <input class="arrow_down" name="btn88" type="button" value="&darr;">
+                    <input class="arrow_left" name="btn89" type="button" value="&rarr;">
+                </td></tr>
+            </table>
+          </div>
+        </form>
+        <script>
+            function insert(num){
+                (document.form.text.value=document.form.text.value+num)
+            }
+            function lowercase(num){
+                document.form.btn56.value=document.form.btn56.value.tolowercase();
+            }
+        </script>
+</body>
+</html>

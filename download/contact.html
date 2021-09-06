@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <a href="index.html" class="brand-name">Download</a>
+            <div class="wrap-nav-link">
+                <span class="dropdown" onclick="dropdown()">----</span>
+                <form action="" class="search" id="dropdown-menu">
+                    <input type="text" placeholder="Search..." class="search-bar">
+                    <button class="search-btn">Search</button>
+                </form>
+                <div class="dropdown-menu">
+                    <div class="toggle-container">
+                        <input type="checkbox" id="switch" name="theme" />
+                        <label for="switch" class="lable">Toggle</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-content">
+            <form action="" class="contact-section">
+                <div class="heading-contact">Contact</div>
+                <div class="input-fields">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="input-fields">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="input-fields">
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" id="subject">
+                </div>
+                <div class="input-fields">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Send</button>
+            </form>
+            <div class="border"></div>
+            <div class="other-section">
+                <p class="address">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p class="phone-no">+92123-123456</p>
+                <p class="mail">someone@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.main-content{
+    width: 1440px;
+    padding: .5em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-main{
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0em;
+    letter-spacing: 2px;
+}
+.row{
+    display: flex;
+}
+.card{
+    margin: 10px;
+    width: 300px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px var(--shadow);
+    cursor: pointer;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 18px;
+}
+.card:hover{
+    transition: 100ms ease-in-out;
+    color: var(--hover);
+    transform: scale(1.1);
+}

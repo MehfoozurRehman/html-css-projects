@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+            dieImg = new Array( 7 ) ;
+                for( k = 1; k < 7; k++ ) { //This Preloads images 
+                dieImg[ k ] = new Image( ) ;
+                /*To give a src value*/
+                dieImg[ k ].src = k + ".gif" ;
+                }
+            function roll_the_Die( ) {
+                dieN = Math.ceil( 6 * Math.random( ) ) ;
+                document.die.src = dieImg[ dieN ].src ;
+                }
+        </script>
+    </head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: nunito,sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 200px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+        input:hover{
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, .1);
+        }
+    </style>
+    <body>
+        <IMG name="die" src="6.gif">
+        <FORM>
+            <INPUT type="button" value="Roll the Die"
+            onClick="roll_the_Die( )">
+        </FORM>
+    </body>
+</html>
